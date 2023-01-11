@@ -1,0 +1,15 @@
+.job1, .job2, .job3, .edu1, .edu2, .edu3 {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+body {
+  margin: 30px;
+  text-align: center;
+}
+
+ul {
+  list-style-position: inside;
+  text-align: center;
+}
