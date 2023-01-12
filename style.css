@@ -1,6 +1,7 @@
 h1 {
   font-weight: bold;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
 }
 
 ul {
@@ -19,6 +20,12 @@ a {
 
 .edu {
   background-color: cadetblue;
+  text-align: center;
+}
+
+.listedu {
+  text-align: center;
+    list-style-position: inside;
 }
 
 .job {
@@ -29,9 +36,11 @@ a {
   display: flex;
   gap: 50px;
   margin-bottom: 50px;
+  justify-content: center;
+
 }
 
 body {
-  margin: 30px;
+  margin: 60px;
 
 }
